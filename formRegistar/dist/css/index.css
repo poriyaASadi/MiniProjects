@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(62, 65, 68);
+}
+.container{
+       width: 100%;
+       height: 100%;
+       overflow: hidden;
+       display: flex !important;
+       justify-content: center !important;
+       align-items: center !important;
+       position: relative;
+       flex-direction: column;
+       gap: 2rem 0;
+}
+.titleFromlogin{
+    font-style: italic;
+    font-size: 2.5rem;
+ color: aliceblue;
+ margin-bottom: 2rem;
+}
+.content{
+    position: relative;
+    z-index: 10;
+    width: 35rem;
+    height: 38rem;
+    background-color: rgba(0, 0, 0, 0.244);
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    border: 2px solid #f0f0f0;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    filter:none !important;
+    -webkit-filter:none !important;
+}
+.filter{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    z-index: -10;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(../image/canva-pink-colorful-photo-good-morning-desktop-wallpaper-aU5XOBmjrRs.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+/* ----=---- */
+#formlogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_box{
+    width: 25rem;
+    height: 3rem;
+    position: relative;
+    margin-top: 1.5rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    background-color: #f0f0f044;
+    border: 1px solid #fff;
+    transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+}
+.input_box input{
+    width: 100%;
+    height: 100%;
+    padding:0 .5rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    font-size: 1rem;
+    color: #f0f0f0;
+}
+.input_box label {
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: transparent;
+    padding: .3rem .5rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    color: #f0f0f0;
+    transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+}
+.input_box input:focus~label,
+.input-box input:valid~label{
+    top: -20px;
+    color: #333;
+    background-color: #f0f0f0;
+    transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+}
+
+/* ------- finish style form login */
+
+
+.anotherRegister{
+    width: 20rem;
+    margin-top: 2rem;
+    height: 4rem;
+    background-color: #f0f0f044;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 2rem;
+}
+.anotherRegister div {
+  font-size: large; 
+  font-weight: 600;
+  color: #f0f0f0;
+}
+.anotherRegister div a{
+    color: #f0f0f0;
+    display: flex;align-items: center;
+    justify-content: center;gap: 0 .5rem;
+}
+.btn_send{
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+    background-color: #f0f0f044;
+    text-align: center;
+    line-height: 2rem;
+    margin-top: 1.5rem;
+    border: 2px solid #333;
+}
+.btn_send a {
+    color: #f0f0f0;
+    font-size: large;
+    font-weight: 600;
+}
