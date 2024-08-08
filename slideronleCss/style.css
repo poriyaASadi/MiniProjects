@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #000000;
+    /* background-color: #000000; */
 }
 .baner{
 width: 100%;
@@ -26,7 +26,7 @@ position: relative;
     -ms-transform: perspective(1000px);
     -o-transform: perspective(1000px);
     animation: autoRun 20s linear infinite;
-    -webkit-animation: autoRun 30s linear infinite;
+    -webkit-animation: autoRun 20s linear infinite;
     border-radius: .5rem;
     -webkit-border-radius: .5rem;
     -moz-border-radius: .5rem;
@@ -35,17 +35,17 @@ position: relative;
 }
 @keyframes autoRun {
     from {
-        transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
-        -webkit-transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
-        -moz-transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
-        -ms-transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
-        -o-transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
+        transform: perspective(1000px) rotateX(16deg) rotateY(0deg);
+        -webkit-transform: perspective(1000px) rotateX(16deg) rotateY(0deg);
+        -moz-transform: perspective(1000px) rotateX(16deg) rotateY(0deg);
+        -ms-transform: perspective(1000px) rotateX(16deg) rotateY(0deg);
+        -o-transform: perspective(1000px) rotateX(16deg) rotateY(0deg);
 }to {
-    transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
-    -webkit-transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
-    -moz-transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
-    -ms-transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
-    -o-transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
+    transform: perspective(1000px) rotateX(16deg) rotateY(360deg);
+    -webkit-transform: perspective(1000px) rotateX(16deg) rotateY(360deg);
+    -moz-transform: perspective(1000px) rotateX(16deg) rotateY(360deg);
+    -ms-transform: perspective(1000px) rotateX(16deg) rotateY(360deg);
+    -o-transform: perspective(1000px) rotateX(16deg) rotateY(360deg);
 }
 }
 .item {
