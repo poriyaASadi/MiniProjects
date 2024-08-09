@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 body {
-    /* background-color: #000000; */
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/wallpapersden.com_76969-1920x1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
 }
 .baner{
 width: 100%;
@@ -25,8 +29,8 @@ position: relative;
     -moz-transform: perspective(1000px);
     -ms-transform: perspective(1000px);
     -o-transform: perspective(1000px);
-    animation: autoRun 20s linear infinite;
-    -webkit-animation: autoRun 20s linear infinite;
+    animation: autoRun 40s linear infinite;
+    -webkit-animation: autoRun 40s linear infinite;
     border-radius: .5rem;
     -webkit-border-radius: .5rem;
     -moz-border-radius: .5rem;
@@ -35,20 +39,21 @@ position: relative;
 }
 @keyframes autoRun {
     from {
-        transform: perspective(1000px) rotateX(16deg) rotateY(0deg);
-        -webkit-transform: perspective(1000px) rotateX(16deg) rotateY(0deg);
-        -moz-transform: perspective(1000px) rotateX(16deg) rotateY(0deg);
-        -ms-transform: perspective(1000px) rotateX(16deg) rotateY(0deg);
-        -o-transform: perspective(1000px) rotateX(16deg) rotateY(0deg);
+        transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
+        -webkit-transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
+        -moz-transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
+        -ms-transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
+        -o-transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
 }to {
-    transform: perspective(1000px) rotateX(16deg) rotateY(360deg);
-    -webkit-transform: perspective(1000px) rotateX(16deg) rotateY(360deg);
-    -moz-transform: perspective(1000px) rotateX(16deg) rotateY(360deg);
-    -ms-transform: perspective(1000px) rotateX(16deg) rotateY(360deg);
-    -o-transform: perspective(1000px) rotateX(16deg) rotateY(360deg);
+    transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
+    -webkit-transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
+    -moz-transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
+    -ms-transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
+    -o-transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
 }
 }
 .item {
+    border: 1px solid #ffff;
     position: absolute;
     inset: 0 0 0 0;
     transform:rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg )) translateZ(550px) ;
@@ -56,6 +61,11 @@ position: relative;
     -moz-transform:rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg )) translateZ(550px) ;
     -ms-transform:rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg )) translateZ(550px) ;
     -o-transform:rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg )) translateZ(550px) ;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
 }
 .baner .slider .item img {
     width: 100%;
