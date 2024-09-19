@@ -1,0 +1,66 @@
+@import './aboutproduct.scss';
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #333;
+}
+
+.imagecartbox{
+    width: 100%;
+    object-fit: cover;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
+  .boxcart{
+    padding: .5rem;
+    border-radius: .5rem;
+    max-width: 15rem;
+    background-color: rgb(212, 212, 212);
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
+  ul {
+    width: 100%;
+    padding: 2rem;
+    display: flex;gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .aboutcart h3 {
+    color: #333;
+    padding: .3rem 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .aboutcart p{
+   font-size: small;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .btncart{
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;cursor: pointer;
+    margin:.3rem .5rem; text-decoration: none;
+    background-color: aqua;color: #333;font-weight: 600;
+    margin-top: 1rem;display: block;
+}

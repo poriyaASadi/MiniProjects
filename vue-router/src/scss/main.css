@@ -1,0 +1,124 @@
+.parentbox_aboutproduct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 1rem;
+  width: 100%;
+  height: 100vh;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.parentbox_aboutproduct .boximage_aboutproduct {
+  width: 20rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.parentbox_aboutproduct .box_rightproduct {
+  max-width: 30rem;
+}
+.parentbox_aboutproduct .box_rightproduct h2 {
+  color: aliceblue;
+  font-weight: 500;
+  font-size: 2.5em;
+  padding: 1rem;
+  border-bottom: 1px solid #555;
+}
+.parentbox_aboutproduct .box_rightproduct p {
+  color: aliceblue;
+  line-height: 1.5rem;
+  padding: 0.5rem 0;
+}
+.parentbox_aboutproduct .box_rightproduct .amount_product {
+  border: 1px solid #555;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+.parentbox_aboutproduct .box_rightproduct .amount_product span {
+  font-weight: 500;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #333;
+}
+
+.imagecartbox {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.boxcart {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  max-width: 15rem;
+  background-color: rgb(212, 212, 212);
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+ul {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.aboutcart h3 {
+  color: #333;
+  padding: 0.3rem 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.aboutcart p {
+  font-size: small;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btncart {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  cursor: pointer;
+  margin: 0.3rem 0.5rem;
+  text-decoration: none;
+  background-color: aqua;
+  color: #333;
+  font-weight: 600;
+  margin-top: 1rem;
+  display: block;
+}/*# sourceMappingURL=main.css.map */

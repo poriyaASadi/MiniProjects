@@ -67,11 +67,13 @@ const NextQustion = () => {
     currentQuestion.value = true
   }
 }
+
+let fff = 'ffffffgffgff'
 </script>
 
 <template>
 <main class="app">
-  <h1>hello poriya asadi :)</h1>
+  <h1>{{ fff }}</h1>
   <section class="quiz" v-if="!quizeCompleted">
     <div class="auiz-info">
       <span class="quizstion">{{ getCurrentQuestion.question }}</span>
